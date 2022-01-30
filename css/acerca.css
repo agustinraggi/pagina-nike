@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.barra-tareas{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 5px;
+}
+.barra-tareas2{
+    text-decoration: none;
+    color:white;
+}
+.logo2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items:center;
+}
+.titulo{
+    font-family: 'Archivo Black', sans-serif;
+}
+.logo2 img{
+position: absolute;
+top: 0;
+left: 0;
+}
+.body{
+    font-family: 'Quicksand', sans-serif;
+}
+footer{
+    background: linear-gradient(-70deg, rgba(0, 0, 0, 0.767), white);
+}
+
+h1{
+    line-height: 20px;
+    text-align:center;
+}
+
+h2{
+    line-height: 45px;
+    text-align: justify;
+}
+
+h3{
+    text-align: justify;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}

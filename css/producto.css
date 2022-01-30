@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.barra-tareas{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 5px;
+}
+.barra-tareas2{
+    text-decoration: none;
+    color:white;
+}
+.logo2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items:center;
+}
+.titulo{
+    font-family: 'Archivo Black', sans-serif;
+}
+.logo2 img{
+position: absolute;
+top: 0;
+left: 0;
+}
+.todo-producto{
+    width:100%;
+    display: flex;
+    text-align: center; 
+    margin: auto;
+    justify-content: center;
+    align-content: space-evenly;
+    padding-top: 0;
+}
+
+.video-publicidad{
+    display: flex;
+    justify-content: start;
+    width: 30%;
+    background-color: black;
+    background-image: -webkit-linear-gradient(-37.5deg,black 50%, rgb(161, 206, 79) 50%);
+    
+
+}
+.zapatilla{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:  wrap ;
+    width: 60%;
+    margin: auto;
+    margin-right: 0;
+
+}
+
+.promociones{
+    text-align: center;
+}
+
+.tarjetas{
+    background: linear-gradient(70deg, black, white);
+}
+
+footer{
+    background: linear-gradient(-70deg, rgba(0, 0, 0, 0.767), white);
+}
+

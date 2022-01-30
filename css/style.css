@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.barra-tareas{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 5px;
+
+}
+.barra-tareas2{
+    text-decoration: none;
+    color:white;
+}
+
+.titulo{
+    text-align: center;
+    justify-content: center ;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+.letra{
+    text-align: center;
+}
+footer{
+    background: linear-gradient(-70deg, rgba(0, 0, 0, 0.767), white);
+}
+
+.video{
+    text-align: center;
+    background-image: url(../imagenes/fondo-video.jpg);
+    padding: 50px;
+    font-size: 40px;
+}
+
+.carrucel{
+width:100%;
+background:rgba(42, 184, 228, 0.7) ;
+
+}
+
+.carrucel ul{
+    display:flex ;
+    padding: 0;
+    width: 400%;
+    animation: cambio 7s infinite alternate;
+ }
+
+.carrucel li{
+  width: 100%;
+    list-style: none; 
+    text-align: center;
+}
+
+.carrucel-img{
+    width:50%;
+    height: 500px;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    40%{margin-left:-100% ;}
+    45%{margin-left: -100%;}
+
+    65%{margin-left:-200% ;}
+    70%{margin-left: -200%;}
+
+    96%{margin-left:-300% ;}
+    100%{margin-left:-300%;}
+}
+.logo2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items:center;
+}
+.logo2 img{
+position: absolute;
+top: 0;
+left: 0;
+}
