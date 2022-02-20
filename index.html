@@ -6,53 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nike</title>
     
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="../nike/html/producto.html">
 
 </head>
 <body>
-   
-   <div class="logo2"> <img 
-    src="../imagenes/logo-nike.png"
+ 
+  <div class="logo"> <img 
+    src="./asents/logo-nike.png"
     width="50"
     height="50"
      alt="logo">
     <h1 class="titulo"> Nike</h1>
-    </div>
+  </div>
+
   <nav>
-      <ul class="barra-tareas">
-          <li><a class="barra-tareas2" href="">inicio</a></li>
-          <li><a class="barra-tareas2" href="html/producto.html">producto</a></li>
-          <li><a class="barra-tareas2" href="html/acerca.html">acerca</a></li>
-          <li><a class="barra-tareas2" href="html/envio.html">envio</a></li>
-          <li><a class="barra-tareas2" href="html/contacto.html">contacto</a></li>
-    
-      </ul>
+    <ul class="barra__tareas">
+      <li><a class="barra__tareas2" href="">inicio</a></li>
+      <li><a class="barra__tareas2" href="./html/producto.html">producto</a></li>
+      <li><a class="barra__tareas2" href="./html/acerca.html">acerca</a></li>
+      <li><a class="barra__tareas2" href="./html/envio.html">envio</a></li>
+      <li><a class="barra__tareas2" href="./html/contacto.html">contacto</a></li>
+    </ul>
   </nav>
+
   <h1 class="letra">nueva coleccion</h1>
   <div class="carrucel">
-      <ul>
-          <li><img class="carrucel-img" src="../imagenes/bob esponja 1.jpg" alt=""></li>
-          <li><img class="carrucel-img" src="../imagenes/bob esponja 2.jfif" alt=""></li>
-          <li><img class="carrucel-img" src="../imagenes/bob esponja 3.jpg" alt=""></li>
-          <li><img class="carrucel-img" src="../imagenes/bob esponja 4.jpg" alt=""></li>
-
-          
-      </ul>
+    <ul>
+      <li><img class="carrucel-img" src="./asents/bob-esponja/bob esponja 1.jpg" alt=""></li>
+      <li><img class="carrucel-img" src="./asents/bob-esponja/bob esponja 2.jfif" alt=""></li>
+      <li><img class="carrucel-img" src="./asents/bob-esponja/bob esponja 3.jpg" alt=""></li>
+      <li><img class="carrucel-img" src="./asents/bob-esponja/bob esponja 4.jpg" alt=""></li>      
+    </ul>
       
   </div>
-  <div class="video">
+  
+  <div class="video__publicidad">
     <video src="../video/publicad-bob-esponja.mp4" height="315"width="560" autoplay muted loop></video>
   </div>
-  <footer>
-
-    <div><img 
-      src="../imagenes/logo-nike.png"
-      width="50"
-      height="40"
-       alt="logo"> © Copyright - 2022  www.nike.com.ar, TODOS LOS DERECHOS RESERVADOS. Las fotos contenidas en este site, el logotipo y las marcas son propiedad de www.nike.com.ar y/o de sus respectivos titulares. Está prohibida la reproducción total o parcial, sin la expresa autorización de la administradora de la tienda virtual. Nike, Argentina.</div>
-</footer>
   
-</header>
+  <footer>
+    <div class='footer__cotain'>
+        <div id="time">
+            <div class='footer__subTitles'>
+              <img class="icons__footer" src="../asents/rrss/map-pin-solid.svg" alt="">
+              <p><strong> Nuestros horarios</strong></p>
+            </div>
+            <div class='footer__time--info'>
+              <p>Lunes a viernes: 09:00 a 18:00 hs</p>
+              <p>Sábados y domingos: 09:00 a 13:00 hs</p>
+            </div>
+        </div>
+        <div class='footer__networks'>
+            <p><strong> Seguinos en redes!</strong></p>
+            <div class='footer__icons'>
+                <img src="../asents/rrss/facebook-brands.svg" width="25px" alt="">
+                <img src="../asents/rrss/instagram-brands.svg" width="25px" alt="">
+                <img src="../asents/rrss/twitter-brands.svg"width="25px" alt="">
+            </div>
+        </div>
+
+        <div class='footer__subContainers'>
+            <div class='footer__subTitles'>
+                <FmdGoodIcon class='icons__footer' />
+                <p><strong> Dónde encontrarnos</strong></p>
+            </div>
+            <div class='footer__time--info'>
+                <p>Dir.: Calle falsa 123</p>
+                <p>Tel.: (0341) 4111232</p>
+
+            </div>
+        </div>
+
+    </div>
+    <div class='contact__footer'>
+      <p class='contac__footer--creator'>Created by Agustin Raggi   agustinraggi@gmail.com</p>
+    </div >
+  </footer> 
+
 </body>
 </html>

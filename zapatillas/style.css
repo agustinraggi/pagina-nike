@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.barra-tareas{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 5px;
+}
+.barra-tareas2{
+    text-decoration: none;
+    color:white;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items:center;
+}
+.titulo{
+    font-family: 'Archivo Black', sans-serif;
+}
+.logo img{
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.jbalvin__zapatilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px;
+}
+
+.jordan__jbalvin {
+    width: 500px;
+    height: 600px;
+}
+
+.jordan__jbalvin img {
+    grid-area: 1 / 1 / 3 / 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* dereche una descripccion */
+
+
+.travis__zapatilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px;
+}
+
+.jordan__travis {
+    width: 500px;
+    height: 600px;
+}
+
+.jordan__travis img {
+    grid-area: 1 / 1 / 3 / 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* dereche una descripccion */
+
+
+.jordan__zapatilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px;
+}
+
+.jordan__jordan--red {
+    width: 500px;
+    height: 600px;
+}
+
+.jordan__jordan--red img {
+    grid-area: 1 / 1 / 3 / 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* dereche una descripccion */
+
+
+.running__zapatilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px;
+}
+
+.zapatilla__running {
+    width: 500px;
+    height: 600px;
+}
+
+.zapatilla__running img {
+    grid-area: 1 / 1 / 3 / 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* dereche una descripccion */
+
+.running2__zapatilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px;
+}
+
+.zapatilla__running2 {
+    width: 500px;
+    height: 600px;
+}
+
+.zapatilla__running2 img {
+    grid-area: 1 / 1 / 3 / 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* dereche una descripccion */
+
+
+.urban__zapatilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px;
+}
+
+.urban__shoes {
+    width: 500px;
+    height: 600px;
+}
+
+.urban__shoes img {
+    grid-area: 1 / 1 / 3 / 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* dereche una descripccion */
+
+
+.kyrie6__zapatilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px;
+}
+
+.kyrie6__shoes {
+    width: 500px;
+    height: 600px;
+}
+
+.kyrie6__shoes img {
+    grid-area: 1 / 1 / 3 / 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* dereche una descripccion */
+
+
+.kyrie5__zapatilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px;
+}
+
+.kyrie5__shoes {
+    width: 500px;
+    height: 600px;
+}
+
+.kyrie5__shoes img {
+    grid-area: 1 / 1 / 3 / 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* dereche una descripccion */
+
+.kyrie1__zapatilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 80px;
+}
+
+.kyrie1__shoes {
+    width: 500px;
+    height: 600px;
+}
+
+.kyrie1__shoes img {
+    grid-area: 1 / 1 / 3 / 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* dereche una descripccion */

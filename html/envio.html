@@ -6,52 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike</title>
     <link rel="stylesheet" href="../css/envio.css">
+    <script src="https://kit.fontawesome.com/79e15ec37c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="logo2"> <img 
-        src="../imagenes/logo-nike.png"
+    <div class="logo"> <img 
+        src="../asents/logo-nike.png"
         width="50"
         height="50"
         alt="logo">
         <h1 class="titulo"> Nike</h1>
     </div>
-        <nav>
-          <ul class="barra-tareas">
-              <li><a class="barra-tareas2" href="../index.html">inicio</a></li>
-              <li><a class="barra-tareas2" href="producto.html">producto</a></li>
-              <li><a class="barra-tareas2" href="acerca.html">acerca</a></li>
-              <li><a class="barra-tareas2" href="envio.html">envio</a></li>
-              <li><a class="barra-tareas2" href="contacto.html">contacto</a></li>
-        </nav>
+
+    <nav>
+        <ul class="barra-tareas">
+            <li><a class="barra-tareas2" href="../index.html">inicio</a></li>
+            <li><a class="barra-tareas2" href="producto.html">producto</a></li>
+            <li><a class="barra-tareas2" href="acerca.html">acerca</a></li>
+            <li><a class="barra-tareas2" href="envio.html">envio</a></li>
+            <li><a class="barra-tareas2" href="contacto.html">contacto</a></li>
         </ul>
-        <h1>TU PEDIDO</h1>
-        <div class="datos">
-            <h3>Introduce los siguientes datos para realizar el seguimiento de tu pedido.</h3>
-            <h3>Debes proporcionarnos tu dirección de correoelectrónico y tu número de pedido por razones de seguridad.</h3>
-        </div>    
+    </nav>
+
+    <h1>TU PEDIDO</h1>
+    <h3>Introduce los siguientes datos para realizar el seguimiento de tu pedido.</h3>
+    <h3>Debes proporcionarnos tu dirección de correoelectrónico y tu número de pedido por razones de seguridad.</h3>
+
+    <div class="info__pedido">
         <h2>
-            <form action="" method="" enctype="">
-                <label for="numero">numero del pedido</label>
-                <input type="nombre" id="numero">
-            </form>
+        <form action="" method="" enctype="">
+            <label for="numero">numero del pedido</label>
+            <input type="nombre" id="numero">
+        </form>
         </h2>
+
         <h2>
-            <form action="" method="" enctype="">
-                <label for="email">correo electronico</label>
-                <input type="email" id="email">
-            </form>
+        <form action="" method="" enctype="">
+            <label for="email">correo electronico</label>
+            <input type="email" id="email">
+        </form>
         </h2>
-        
-        <div class="boton">
-            <button style='width:70px; height:25px'>enviar</button>
-        </div>
-          <footer>
-            <div><img 
-                 src="../imagenes/logo-nike.png"
-                width="50"
-                height="40"
-                alt="logo"> © Copyright - 2022  www.nike.com.ar, TODOS LOS DERECHOS RESERVADOS. Las fotos contenidas en este site, el logotipo y las marcas son propiedad de www.nike.com.ar y/o de sus respectivos titulares. Está prohibida la reproducción total o parcial, sin la expresa autorización de la administradora de la tienda virtual. Nike, Argentina.
+    </div>
+            
+    <div class="boton">
+        <button style='width:70px; height:25px'>enviar</button>
+    </div>
+  
+    <footer>
+        <div class='footer__cotain'>
+            <div id="time">
+                <div class='footer__subTitles'>
+                    <img class="icons__footer" src="../asents/rrss/map-pin-solid.svg" alt="">
+                    <p><strong> Nuestros horarios</strong></p>
+                </div>
+                <div class='footer__time--info'>
+                    <p>Lunes a viernes: 09:00 a 18:00 hs</p>
+                    <p>Sábados y domingos: 09:00 a 13:00 hs</p>
+
+                </div>
             </div>
-        </footer>
+            <div class='footer__networks'>
+                <p><strong> Seguinos en redes!</strong></p>
+                <div class='footer__icons'>
+                    <img src="../asents/rrss/facebook-brands.svg" width="25px" alt="">
+                    <img src="../asents/rrss/instagram-brands.svg" width="25px" alt="">
+                    <img src="../asents/rrss/twitter-brands.svg"width="25px" alt="">
+                </div>
+            </div>
+
+            <div class='footer__subContainers'>
+                <div class='footer__subTitles'>
+                    <FmdGoodIcon class='icons__footer' />
+                    <p><strong> Dónde encontrarnos</strong></p>
+                </div>
+                <div class='footer__time--info'>
+                    <p>Dir.: Calle falsa 123</p>
+                    <p>Tel.: (0341) 4111232</p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class='contact__footer'>
+            <p class='contac__footer--creator'>Created by Agustin Raggi   agustinraggi@gmail.com</p>
+        </div >
+    </footer> 
 </body>
 </html>
