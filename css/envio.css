@@ -3,8 +3,11 @@
     margin:0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Montserrat:ital,wght@1,200&family=Nunito:wght@200&display=swap');
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 .barra-tareas {
@@ -207,7 +210,7 @@ border: black;
 
   body {
     position: relative;
-    padding-bottom: 160px;
+    padding-bottom: 170px;
 }
 
     .footer__cotain {
@@ -291,4 +294,85 @@ border: black;
     .barra-tareas2 {
       font-size: 15px;
   }
+  body {
+    padding-bottom: 400px;
+  }
+  .footer__cotain {
+    padding: 15px 8px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .footer__icons {
+    padding: 3px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    justify-content: center;
+  }
+
+  .footer__icons img {
+    width: 18px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .icons__footer {
+    padding: 0px 3px;
+    width: 18px;
+    height: auto;
+  }
+
+  p {
+    padding: 3px 0;
+    margin: 0 !important;
+  }
+  .icons__footer:hover {
+    color: white;
+  }
+  
+  .contact__footer {
+    color: black;
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    font-size: small;
+    padding-bottom: 8px;
+  }
+  .footer__subTitles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .footer__time--info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .footer__networks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  footer {
+    color: silver;
+    display: block;
+    background: rgb(70 70 70);
+    width: 100%;
+    height: auto;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
   }

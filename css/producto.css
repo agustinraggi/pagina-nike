@@ -3,9 +3,13 @@
     margin:0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Montserrat:ital,wght@1,200&family=Nunito:wght@200&display=swap');
+
+
 body {
     position: relative;
     padding-bottom: 149px;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .barra__tareas{
@@ -145,7 +149,7 @@ left: 0;
     
 
     body {
-      padding-bottom: 150px;
+      padding-bottom: 145px;
   }
 
 .todo__producto{
