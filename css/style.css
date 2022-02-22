@@ -130,14 +130,6 @@ left: 0;
     padding: 3px 0;
     margin: 0 !important;
   }
-  /* .footer__icons:hover {
-    /* background-color: white; */
-  
-
-  .footer__icons--img:hover {
-    fill: red;
-    color: red !important;
-  }
   
   .contact__footer {
     color: black;
@@ -315,7 +307,7 @@ left: 0;
         justify-content: center;
       }
 
-      .footer__icons img {
+      .footer__icons--img img {
         width: 18px;
         margin-top: 5px;
       }
@@ -423,7 +415,7 @@ left: 0;
         justify-content: center;
       }
 
-      .footer__icons img {
+      .footer__icons--img img {
         width: 18px;
         margin-top: 5px;
         margin-bottom: 15px;
