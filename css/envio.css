@@ -113,6 +113,7 @@ border: black;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
   }
 
   .footer__time--info {

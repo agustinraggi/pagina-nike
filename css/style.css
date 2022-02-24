@@ -2,13 +2,14 @@
     padding: 0;
     margin:0;
 }
+/* agregar acordion */
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Montserrat:ital,wght@1,200&family=Nunito:wght@200&display=swap');
 
 
 body {
     position: relative;
-    padding-bottom: 145px;
+    padding-bottom: 140px;
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -39,7 +40,7 @@ body {
     margin-bottom: 10px;
 }
 
-.video__publicidad{
+.video__publicidad {
     text-align: center;
     background-image: url(../asents/bob-esponja/fondo__video.jpg);
     background-repeat: no-repeat;
@@ -144,6 +145,7 @@ left: 0;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
   }
 
   .footer__time--info {
@@ -448,6 +450,8 @@ left: 0;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-left: 100px;
+        margin-top: 25px;
         font-size: 14px;
       }
     

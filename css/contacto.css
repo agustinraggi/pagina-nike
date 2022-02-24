@@ -193,6 +193,7 @@ ul {
     justify-content: center;
     align-items: center;
     margin-right: 300px;
+    margin-bottom: 10px;
   }
 
   .footer__time--info {

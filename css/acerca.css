@@ -69,12 +69,9 @@ h2 {
     text-align:center;
 }
 
-h3 {
-    line-height: 20px;
+h4 {
     text-align:justify;
     margin-top: 5px;
-    margin: 0 40px;
-
 }
 
 p {
@@ -85,6 +82,9 @@ p {
     margin-bottom: 16px;
 }
 
+p:hover {
+  background-color:rgb(59, 230, 245) ;
+}
 
 .fondo__posando img {
     display: flex;
@@ -98,8 +98,9 @@ p {
 
 .links{
     text-decoration: none;
-    color:black;
+    color:purple;
 }
+
 
 .footer__cotain {
   padding: 15px 8px;
