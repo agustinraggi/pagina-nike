@@ -206,6 +206,7 @@ left: 0;
       .footer__icons {
         padding: 3px 10px;
         display: grid;
+        width: 25px;
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
         justify-content: center;
