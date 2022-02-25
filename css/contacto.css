@@ -263,7 +263,7 @@ ul {
         align-items: center;
         width: 95%;
         margin: auto;
-        text-align: center;
+        text-align:center;
       }
       
       .footer__icons {
@@ -290,9 +290,7 @@ ul {
         padding: 3px 0;
         margin: 0 !important;
       }
-      .icons__footer:hover {
-        color: white;
-      }
+
       
       .contact__footer {
         color: black;
@@ -308,7 +306,7 @@ ul {
         justify-content: center;
         align-items: center;
         font-size: 14px;
-        margin-left: 280px;
+        margin-left: 260px;
       }
     
       .footer__time--info {
@@ -336,10 +334,15 @@ ul {
         height: auto;
         position:absolute;
         bottom: 0;
-        width: 100%;
+        width: 97%;
 
       }
-
+      .float{
+        position:absolute;
+        right:150px;
+        margin-bottom: 70px;
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 668px) {
@@ -436,13 +439,20 @@ ul {
     color: silver;
     display: block;
     background: rgb(70 70 70);
-    width: 100%;
+    width: 80%;
     height: auto;
     position:absolute;
     bottom: 0;
-    width: 100%;
+    width: 94%;
 
   }
+
+  .float{
+    position:absolute;
+    right:150px;
+    margin-bottom: 50px;
+    margin-right: -50px;
+}
 
 }
 
@@ -535,8 +545,9 @@ ul {
     
 
       .float{
+        position:absolute;
         right:150px;
-        margin-bottom: 80px;
-        margin-right: 30px;
+        margin-bottom: 20px;
+        margin-right: -120px;
     }
 }
