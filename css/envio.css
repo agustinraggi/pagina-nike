@@ -12,13 +12,13 @@ body {
   padding-bottom: 180px;
 }
 
-#barra-tareas {
+#barra__tareas {
     justify-content: space-evenly;
     list-style: none;
     padding: 5px;
 }
 
-.barra-tareas2 {
+#barra__tareas2 {
     text-decoration: none;
     font-size: 25px;
 }
@@ -28,7 +28,6 @@ body {
 }
 
 .logo{
-    display: flex;
     width: 40%;
     justify-content: center;
     height: 50px;
@@ -201,7 +200,7 @@ border: black;
   @media (max-width: 768px) {
   body {
     position: relative;
-    padding-bottom: 170px;
+    padding-bottom: 190px;
 }
 
   .info__pedido{
@@ -297,7 +296,7 @@ border: black;
     flex-direction:column;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 94%;
     text-align: center;
   }
   
@@ -361,7 +360,7 @@ border: black;
     color: silver;
     display: block;
     background: rgb(70 70 70);
-    width: 90%;
+    width: 100%;
     height: auto;
     position:absolute;
     bottom: 0;
