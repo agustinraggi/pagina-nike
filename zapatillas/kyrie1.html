@@ -9,23 +9,35 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="logo"> <img 
-        src="../asents/logo-nike.png"
-        width="50"
-        height="50"
-        alt="logo">
-        <h1 class="titulo"> Nike</h1>
+  <header id="barra__tareas">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="logo">
+        <img src="../asents/logo-nike.png" width="50" height="50" alt="logo" />
       </div>
-    
-      <nav>
-        <ul class="barra-tareas">
-          <li><a class="barra-tareas2" href="../index.html">inicio</a></li>
-          <li><a class="barra-tareas2" href="../html/producto.html">producto</a></li>
-          <li><a class="barra-tareas2" href="../html/acerca.html">acerca</a></li>
-          <li><a class="barra-tareas2" href="../html/envio.html">envio</a></li>
-          <li><a class="barra-tareas2" href="../html/contacto.html">contacto</a></li>
-        </ul>
+        <div class="container-fluid">
+          <a id="barra__tareas2" class="navbar-brand" href="../index.html">INICIO</a>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="barra__tareas" class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="barra__tareas2" class="nav-link" href="../html/producto.html">PRODUCTO</a>
+              </li>
+              <li class="nav-item">
+                <a id="barra__tareas2" class="nav-link" href="../html/acerca.html">ACERCA</a>
+              </li>
+              <li class="nav-item">
+                <a id="barra__tareas2" class="nav-link" href="../html/envio.html">ENVIO</a>
+              </li>
+              <li class="nav-item">
+                <a id="barra__tareas2" class="nav-link" href="../html/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
+</header>
       
 <section class="kyrie1__zapatilla">
     <img class="img-fluid" src="../asents/kyrie/kyrie1-1.webp" alt="">
@@ -33,6 +45,6 @@
     <img class="img-fluid" src="../asents/kyrie/kyrie1-3.webp" alt="">
     <img class="img-fluid" src="../asents/kyrie/kyrie1-4.webp" alt="">
 </section>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

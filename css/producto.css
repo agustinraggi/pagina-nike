@@ -12,21 +12,17 @@ body {
     font-family: 'Archivo Black', sans-serif;
 }
 
-.barra__tareas{
-    background-color: black;
-    display: flex;
+#barra__tareas{
     justify-content: space-evenly;
     list-style: none;
     padding: 5px;
 }
-.barra__tareas2{
+#barra__tareas2{
     text-decoration: none;
-    color:white;
     font-size: 25px;
 }
 .logo{
-    display: flex;
-    width: 100%;
+    width: 40%;
     justify-content: center;
     height: 50px;
     align-items:center;
@@ -140,12 +136,6 @@ left: 0;
   }
 
 @media (max-width: 920px) {
-
-    .barra__tareas2 {
-        font-size: 18px;
-    }
-    
-
     body {
       position: relative;
       padding-bottom: 162px;
@@ -261,11 +251,6 @@ left: 0;
 }
 
 @media (max-width: 375px) {
-     
-    .barra__tareas2 {
-        font-size: 15px;
-    }
-
     body {
       position: relative;
       padding-bottom: 350px;

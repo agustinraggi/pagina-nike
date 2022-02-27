@@ -3,20 +3,18 @@
     margin:0;
 }
 
-.barra-tareas{
-    background-color: black;
+#barra-tareas{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     list-style: none;
     padding: 5px;
 }
-.barra-tareas2{
+#barra-tareas2{
     text-decoration: none;
-    color:white;
+    font-size: 25px;
 }
 .logo{
-    display: flex;
-    width: 100%;
+    width: 40%;
     justify-content: center;
     height: 50px;
     align-items:center;

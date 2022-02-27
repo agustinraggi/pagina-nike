@@ -8,11 +8,11 @@
 
 body {
   font-family: 'Archivo Black', sans-serif;
+  position: relative;
+  padding-bottom: 180px;
 }
 
-.barra-tareas {
-    background-color: black;
-    display: flex;
+#barra-tareas {
     justify-content: space-evenly;
     list-style: none;
     padding: 5px;
@@ -20,7 +20,6 @@ body {
 
 .barra-tareas2 {
     text-decoration: none;
-    color:white;
     font-size: 25px;
 }
 
@@ -30,7 +29,7 @@ body {
 
 .logo{
     display: flex;
-    width: 100%;
+    width: 40%;
     justify-content: center;
     height: 50px;
     align-items:center;
@@ -58,10 +57,6 @@ h3{
     line-height: 40px;
     margin-top: 20px;
     
-}
-
-.info__pedido{
-    margin-top: 120px;   
 }
 
 .boton {
@@ -204,15 +199,16 @@ border: black;
   }
 
   @media (max-width: 768px) {
-
-    .barra-tareas2 {
-      font-size: 18px;
-  }
-
   body {
     position: relative;
     padding-bottom: 170px;
 }
+
+  .info__pedido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
     .footer__cotain {
       padding: 15px 8px;
@@ -292,9 +288,6 @@ border: black;
   }
 
   @media (max-width: 375px) {
-    .barra-tareas2 {
-      font-size: 15px;
-  }
   body {
     padding-bottom: 400px;
   }
@@ -305,7 +298,6 @@ border: black;
     justify-content: space-between;
     align-items: center;
     width: 95%;
-    margin: auto;
     text-align: center;
   }
   
@@ -369,11 +361,10 @@ border: black;
     color: silver;
     display: block;
     background: rgb(70 70 70);
-    width: 100%;
+    width: 90%;
     height: auto;
     position:absolute;
     bottom: 0;
-    width: 100%;
   }
 
   }
