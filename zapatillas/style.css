@@ -1,142 +1,129 @@
-*{
-    padding: 0;
-    margin:0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-#barra-tareas{
-    display: flex;
-    justify-content:center;
-    list-style: none;
-    padding: 5px;
+#barra-tareas {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 5px;
 }
-#barra-tareas2{
-    text-decoration: none;
-    font-size: 25px;
+#barra-tareas2 {
+  text-decoration: none;
+  font-size: 25px;
 }
-.logo{
-    width: 5%;
-    justify-content: center;
-    height: 50px;
-    align-items:center;
+.logo {
+  width: 5%;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
 }
 
-.titulo{
-    font-family: 'Archivo Black', sans-serif;
+.titulo {
+  font-family: "Archivo Black", sans-serif;
 }
-.logo img{
-position: absolute;
-top: 0;
-left: 0;
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .jbalvin__zapatilla {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 80px;
 }
 
-
 /* dereche una descripccion */
-
 
 .travis__zapatilla {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 80px;
 }
 
-
 /* dereche una descripccion */
-
 
 .jordan__zapatilla {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 80px;
 }
-
 
 /* dereche una descripccion */
 
-
 .running__zapatilla {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 80px;
 }
-
 
 /* dereche una descripccion */
 
 .running2__zapatilla {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 80px;
 }
 
-
 /* dereche una descripccion */
-
 
 .urban__zapatilla {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 80px;
 }
 
-
 /* dereche una descripccion */
-
 
 .kyrie6__zapatilla {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 80px;
 }
-
 
 /* dereche una descripccion */
 
-
 .kyrie5__zapatilla {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 80px;
 }
 
 /* dereche una descripccion */
 
 .kyrie1__zapatilla {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 80px;
 }
 
 /* dereche una descripccion */
