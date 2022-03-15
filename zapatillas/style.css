@@ -13,6 +13,18 @@
   text-decoration: none;
   font-size: 25px;
 }
+#barra__tareas2:hover {
+  color: orange;
+  border-bottom: 2px solid black;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+ul li a:hover{
+  color: orange !important;
+  border-bottom: 2px solid black;
+}
 .logo {
   width: 5%;
   justify-content: center;
@@ -127,3 +139,27 @@
 }
 
 /* dereche una descripccion */
+footer {
+  background: rgb(243, 241, 240);
+  height: 50px;
+  text-align: center;
+}
+@media (max-width:510px) {
+footer{
+  height: 115px;
+}
+}
+@media (max-width:460px) {
+#mail {
+  display: none;
+}
+footer {
+  padding: 30px;
+}
+}
+@media (max-width:375px) {
+  footer{
+    height: auto;
+    margin-top: 220px;
+  }
+}
