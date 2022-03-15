@@ -29,6 +29,14 @@ body {
   color: orange;
   border-bottom: 2px solid black;
 }
+ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+ul li a:hover{
+  color: orange !important;
+  border-bottom: 2px solid black;
+}
 .titulo {
   font-family: "Archivo Black", sans-serif;
 }
@@ -62,7 +70,6 @@ h3 {
   line-height: 40px;
   margin-top: 20px;
 }
-
 .boton {
   text-align: center;
   border: black;

@@ -24,6 +24,14 @@
   color: orange;
   border-bottom: 2px solid black;
 }
+ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+ul li a:hover{
+  color: orange !important;
+  border-bottom: 2px solid black;
+}
 .logo {
   display: flex;
   width: 40%;
@@ -213,7 +221,7 @@ footer {
   color: black;
   display: block;
   background: rgb(243, 241, 240);
-  width: 100%;
+  width: 98%;
   height: auto;
   position: absolute;
   bottom: 0;

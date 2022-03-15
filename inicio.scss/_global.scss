@@ -25,6 +25,14 @@ body {
     color:orange;
     border-bottom: 2px solid black;
   }
+  ul li a {
+    text-decoration: none;
+    font-size: 25px;
+  }
+  ul li a:hover{
+    color: orange !important;
+    border-bottom: 2px solid black;
+  }
 .sub__titulo{
     text-align: center;
     margin-top: 10px;
@@ -41,9 +49,4 @@ body {
 position: absolute;
 top: 0;
 left: 0;
-}
-.sub__titulo{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }

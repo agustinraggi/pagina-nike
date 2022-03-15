@@ -1,3 +1,12 @@
 $colorsilver: silver;
 $colorblack: black;
-$colorcarrucel:linear-gradient(to bottom, hsl(185, 91%, 69%), hsl(202, 92%, 59%)  )
+$colorcarrucel:linear-gradient(to bottom, hsl(185, 91%, 69%), hsl(202, 92%, 59%)  );
+$head: (
+    h1:50px,
+    h2:25px,
+);
+$h1: map-get($head, h1);
+h1{
+    font-size: $h1;
+}
+

@@ -1,3 +1,12 @@
+@mixin footers ($ancho, $altura) {
+  color: black;
+  display: block;
+  background: rgb(243, 241, 240);
+  width: $ancho;
+  height: $altura;
+  position: absolute;
+  bottom: 0;
+}
 @media (max-width: 1200px) {
   .carrucel-img {
     width: 100%;
@@ -64,13 +73,7 @@
     justify-content: center;
   }
   footer {
-    color: black;
-    display: block;
-    background: rgb(243, 241, 240);
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 0;
+    @include footers(100%, auto);
   }
 }
 
@@ -144,13 +147,7 @@
     justify-content: center;
   }
   footer {
-    color: black;
-    display: block;
-    background: rgb(243, 241, 240);
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 0;
+    @include footers(100%, auto);
   }
 }
 @media (max-width: 688px) {
@@ -231,13 +228,7 @@
     justify-content: center;
   }
   footer {
-    color: black;
-    display: block;
-    background: rgb(243, 241, 240);
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 0;
+    @include footers(100%, auto);
   }
 }
 
@@ -317,12 +308,6 @@
     justify-content: center;
   }
   footer {
-    color: black;
-    display: block;
-    background: rgb(243, 241, 240);
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 0;
+    @include footers(100%, auto);
   }
 }

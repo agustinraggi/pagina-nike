@@ -28,6 +28,14 @@ body {
   color: orange;
   border-bottom: 2px solid black;
 }
+ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+ul li a:hover{
+  color: orange !important;
+  border-bottom: 2px solid black;
+}
 .logo {
   display: flex;
   width: 40%;
@@ -71,8 +79,7 @@ h2 {
   margin-bottom: 15px;
   text-align: center;
 }
-
-h4 {
+strong {
   text-align: justify;
   margin-top: 5px;
 }
@@ -337,6 +344,11 @@ footer {
   body {
     position: relative;
     padding-bottom: 500px;
+  }
+  .all__text {
+    border: 0px;
+    padding: 10px;
+    margin: 10px;
   }
   .footer__cotain {
     padding: 15px 8px;

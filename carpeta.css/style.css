@@ -29,6 +29,14 @@ body {
   color: orange;
   border-bottom: 2px solid black;
 }
+ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+ul li a:hover{
+  color: orange !important;
+  border-bottom: 2px solid black;
+}
 .logo {
   width: 40%;
   justify-content: center;
