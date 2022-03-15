@@ -18,21 +18,11 @@
   }
 
   .footer__cotain {
-    padding: 15px 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
-    margin: auto;
+@extend .footer__cotain
   }
 
   .footer__icons {
-    padding: 3px 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-    justify-content: center;
+@extend .footer__icons
   }
   .icons__footer {
     padding: 0px 3px;
@@ -88,21 +78,11 @@
   }
 
   .footer__cotain {
-    padding: 15px 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
-    margin: auto;
+@extend .footer__cotain
   }
 
   .footer__icons {
-    padding: 3px 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3px;
-    justify-content: center;
+@extend .footer__icons
   }
 
   .icons__footer {
@@ -162,22 +142,12 @@
   }
 
   .footer__cotain {
-    padding: 15px 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
-    margin: auto;
-    text-align: center;
+@extend .footer__cotain
   }
 
   .footer__icons {
     padding: 3px 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3px;
-    justify-content: center;
+@extend .footer__icons
   }
 
   .footer__icons img {
@@ -243,21 +213,11 @@
     height: auto;
   }
   .footer__cotain {
-    padding: 15px 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
-    text-align: center;
+@extend .footer__cotain
   }
 
   .footer__icons {
-    padding: 3px 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3px;
-    justify-content: center;
+@extend .footer__icons
   }
 
   .footer__icons img {

@@ -50,3 +50,19 @@ position: absolute;
 top: 0;
 left: 0;
 }
+.footer__contain{
+  padding: 15px 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+.footer__icons {
+  padding: 3px 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  justify-content: center;
+}

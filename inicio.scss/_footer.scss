@@ -1,19 +1,9 @@
 .footer__cotain {
-  padding: 15px 8px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 95%;
-  margin: auto;
+@extend .footer__cotain
 }
 
 .footer__icons {
-  padding: 3px 10px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
-  justify-content: center;
+@extend .footer__icons
 }
 .icons__footer {
   padding: 0px 3px;
