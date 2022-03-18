@@ -42,12 +42,15 @@ ul li a:hover{
 }
 
 .jbalvin__zapatilla {
-  max-width: 1200px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: initial;
+  width: 500px;
+  height: 300px;
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin: 80px;
+  /* margin: 80px; */
 }
 
 /* dereche una descripccion */
@@ -137,13 +140,41 @@ ul li a:hover{
   gap: 20px;
   margin: 80px;
 }
+.talles{
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+margin-left: 500px;
 
-/* dereche una descripccion */
+}
+.talles__titulo{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.talles__subtitulo{
+  margin-bottom: 20px;
+}
+
+.talles__zapatilla{
+  display: flex;
+  flex-direction:initial;
+}
+.talles__numeros{
+  border: solid  3px black ;
+  padding: 5px;
+  gap: 20px;
+}
+.talles__numeros:hover{
+  color: white;
+  background-color: black;
+}
 footer {
   background: rgb(243, 241, 240);
   height: 50px;
   text-align: center;
+  margin-top: 400px;
 }
+
 @media (max-width:510px) {
 footer{
   height: 115px;
