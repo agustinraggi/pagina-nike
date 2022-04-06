@@ -50,10 +50,8 @@ ul li a:hover{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  /* margin: 80px; */
+  margin: 80px;
 }
-
-/* dereche una descripccion */
 
 .travis__zapatilla {
   max-width: 1200px;
@@ -63,6 +61,7 @@ ul li a:hover{
   gap: 20px;
   margin: 80px;
 }
+
 
 /* dereche una descripccion */
 
@@ -156,15 +155,14 @@ margin-left: 500px;
 }
 
 .talles__zapatilla{
-  display: flex;
-  flex-direction:initial;
+  display: inline-flex;
 }
-.talles__numeros{
+.container__buttom{
   border: solid  3px black ;
   padding: 5px;
   gap: 20px;
 }
-.talles__numeros:hover{
+.container__buttom:hover{
   color: white;
   background-color: black;
 }
