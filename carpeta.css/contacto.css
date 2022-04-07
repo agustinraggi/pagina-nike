@@ -204,8 +204,6 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-right: 300px;
-  margin-bottom: 10px;
 }
 
 .footer__time--info {
@@ -225,6 +223,7 @@ footer {
   height: auto;
   position: absolute;
   bottom: 0;
+  margin-top: 500px;
 }
 
 @media (min-width: 1190px) {
@@ -391,7 +390,6 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    margin-left: 260px;
   }
 
   .footer__time--info {
@@ -492,7 +490,6 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    margin-left: 280px;
   }
 
   .footer__time--info {
@@ -552,7 +549,6 @@ footer {
     gap: 3px;
     justify-content: center;
   }
-
   .footer__icons img {
     width: 18px;
     margin-top: 5px;
@@ -572,7 +568,6 @@ footer {
   .icons__footer:hover {
     color: white;
   }
-
   .contact__footer {
     color: black;
     text-align: center;
@@ -587,6 +582,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    width: 200px;
   }
 
   .footer__time--info {

@@ -21,7 +21,7 @@ ul li a {
   text-decoration: none;
   font-size: 25px;
 }
-ul li a:hover{
+ul li a:hover {
   color: orange !important;
   border-bottom: 2px solid black;
 }
@@ -42,26 +42,22 @@ ul li a:hover{
 }
 
 .jbalvin__zapatilla {
-  display: flex;
-  flex-direction: initial;
   width: 500px;
   height: 300px;
-  margin: 0;
+  margin: 0 0 0 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin: 80px;
 }
 
 .travis__zapatilla {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin: 80px;
+  /* margin: 80px; */
 }
-
 
 /* dereche una descripccion */
 
@@ -139,33 +135,73 @@ ul li a:hover{
   gap: 20px;
   margin: 80px;
 }
-.talles{
-display: flex;
-justify-content: flex-end;
-flex-direction: column;
-margin-left: 500px;
-
+.talles {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-left: 700px;
 }
-.talles__titulo{
+.talles__titulo {
   margin-bottom: 10px;
   text-align: center;
+  margin-left: 300px;
 }
-.talles__subtitulo{
+.talles__subtitulo {
+  margin-top: 10px;
   margin-bottom: 20px;
+  text-align: center;
+  margin-left: 300px;
 }
 
-.talles__zapatilla{
-  display: inline-flex;
-}
-.container__buttom{
-  border: solid  3px black ;
-  padding: 5px;
-  gap: 20px;
-}
-.container__buttom:hover{
+.talles__zapatillas {
+  display:grid;
+  grid-template-columns: repeat(4, 90px);
+  width:auto;
   color: white;
-  background-color: black;
+  margin-left: 500px;
 }
+.boton {
+  display: inline-flex;
+  border-radius: 1px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  background-color:white;
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .3 ease all;
+  overflow: hidden;
+  position: relative;
+}
+.boton span {
+  position: relative;
+  z-index: 2;
+  transition: .3s ease all;
+}
+
+.boton.zapatilla::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  z-index: 1;
+  top: -240px;
+  left: 0;
+  transition: .3s ease-in-out all;
+}
+.boton.zapatilla:hover{
+  color: white;
+}
+.boton.zapatilla:hover::after{
+  top: 0;
+}
+
 footer {
   background: rgb(243, 241, 240);
   height: 50px;
@@ -173,21 +209,21 @@ footer {
   margin-top: 400px;
 }
 
-@media (max-width:510px) {
-footer{
-  height: 115px;
+@media (max-width: 510px) {
+  footer {
+    height: 115px;
+  }
 }
+@media (max-width: 460px) {
+  #mail {
+    display: none;
+  }
+  footer {
+    padding: 30px;
+  }
 }
-@media (max-width:460px) {
-#mail {
-  display: none;
-}
-footer {
-  padding: 30px;
-}
-}
-@media (max-width:375px) {
-  footer{
+@media (max-width: 375px) {
+  footer {
     height: auto;
     margin-top: 220px;
   }
