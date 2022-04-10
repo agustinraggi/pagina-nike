@@ -260,6 +260,7 @@ footer {
 @media (max-width: 768px) {
   body {
     font-size: 15px;
+    padding-bottom: 280px;
   }
 
   .fondo__posando img {
@@ -343,7 +344,7 @@ footer {
 @media (max-width: 680px) {
   body {
     position: relative;
-    padding-bottom: 500px;
+    padding-bottom: 600px;
   }
   .all__text {
     border: 0px;
@@ -430,7 +431,7 @@ footer {
 @media (max-width: 375px) {
   body {
     font-size: 16px;
-    padding-bottom: 550px;
+    padding-bottom: 575px;
   }
 
   .all__text {
