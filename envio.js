@@ -15,13 +15,3 @@ input1.addEventListener("input", () => {
 input2.addEventListener("input", () => {
     console.log (input2.value);
 })
-// let miformulario = document.getElementById("bot");
-// miformulario.addEventListener("submit", validarformulario);
-// function validarformulario (e){
-//     console.log(e)
-//     e.preventDefault ();
-//     let formulario = e.target;
-//     console.log(formulario.children[0].value);
-//     console.log(formulario.children[1].value);
-//     console.log("formulario enviado");
-// }

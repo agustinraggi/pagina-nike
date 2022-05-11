@@ -14,112 +14,153 @@
 </head>
 <body>
 
-  <header id="barra__tareas">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="logo">
-          <img src="./asents/logo-nike.png" width="70" height="50" alt="logo" />
+  <header class="header" id="barra__tareas">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="logo">
+        <img
+          src="./asents/logo-nike.png"
+          width="70"
+          height="50"
+          alt="logo"
+        />
+      </div>
+      <div class="container-fluid">
+        <a id="barra__tareas2" class="navbar-brand" href="./index.html"
+          >INICIO</a
+        >
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="barra__tareas" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./producto.html"
+                >PRODUCTO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./acerca.html"
+                >ACERCA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./envio.html"
+                >ENVIO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html"
+                >CONTACTO</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li class="submenu">
+              <img src="./asents/rrss/cart.png" alt="carrito">
+              <div id="carrito">
+                <p class="vacio">carrito vacio</p>
+                <table id="lista-carrito" class="u-full-width">
+                  <thead>
+                    <tr>
+                      <th>imagen</th>
+                      <th>zapatilla</th>
+                      <th>precio</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
+                <a href="#" id="vaciar-carrito"
+                class="buttom u-full-width">vaciar carrito</a>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="container-fluid">
-          <a id="barra__tareas2" class="navbar-brand" href="./index.html"
-            ></a
-          >
-          <button
-            class="navbar-toggler ms-auto"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul id="barra__tareas" class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="./producto.html"
-                  ></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./acerca.html"
-                  ></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./envio.html"
-                  ></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html"
-                  ></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
 <main>
-  <div class='todo__producto'>
+  <div id="lista-zapatillas" class='todo__producto '>
     <div class="zapatilla">
-      <div  class="todo__producto--zapatilla">
-        <a href="./zapatillas/j-balvin.html">
-        <img src="./asents/jordan/j__balvin-1.webp" class="img-fluid" alt="Air Jordan 1 J. Balvin"></a>
-        <h4 class="zapatilla__name">Air Jordan 1 Retro High J. Balvin <div id="j-balvin__texto">"Colores y Vibras" sneakers</div></h4>             
+      <div class="row">
+        <div  class="todo__producto--zapatilla info-card">
+          <img src="./img/zapatilla1.webp" class="imagen-zapatilla u-full-width img-fluid" alt="Air Jordan 1 J. Balvin">
+          <h4 class="zapatilla__name">Air Jordan 1 Retro High J. Balvin <div id="j-balvin__texto">"Colores y Vibras" sneakers</div></h4>
+          <p class="precio">$50 <span class="u-pull-right"></span> </p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">agregar al carrito</a>                    
+        </div>
+        
+        <div  class="todo__producto--zapatilla info-card">
+          <img src="./asents/jordan/travis 1.jpg" class="img-fluid imagen-zapatilla u-full-width"alt="jordan-travis">
+          <h4 class="zapatilla__name">Air Jordan 1 High OG TS SP Travis Scott</h4>
+          <p class="precio">$50 <span class="u-pull-right"></span> </p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">agregar al carrito</a>      
+        </div>
+  
+        <div  class="todo__producto--zapatilla info-card">
+          <img src="./asents/jordan/jonda 1.webp" class="img-fluid imagen-zapatilla u-full-width" alt="jordan-roja-negra">
+          <h4 class="zapatilla__name">Air Jordan 1 Low sneakers</h4>
+          <p class="precio">$50 <span class="u-pull-right"></span> </p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">agregar al carrito</a>          
+        </div>
       </div>
       
-      <div  class="todo__producto--zapatilla">
-        <a href="./zapatillas/travis__scott.html">
-        <img src="./asents/jordan/travis 1.jpg" class="img-fluid" alt="Air Jordan 1 Travis Scott"></a>
-        <h4 class="zapatilla__name">Air Jordan 1 High OG TS SP Travis Scott</h4>  
+      <div class="row">
+        <div  class="todo__producto--zapatilla info-card">
+          <img src="./asents/running/running1.webp" class="img-fluid imagen-zapatilla u-full-width" alt="zapatilla-running">
+          <h4 class="zapatilla__name">Quest 3 low-top sneakers</h4>
+          <p class="precio">$50 <span class="u-pull-right"></span> </p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">agregar al carrito</a>        
+        </div>
+  
+        <div  class="todo__producto--zapatilla info-card">
+          <img src="./asents/running/speed1.webp" class="img-fluid imagen-zapatilla u-full-width" alt="zapatilla-running2">
+          <h4 class="zapatilla__name">Nike Free RN Flyknit 2018 sneakers</h4>
+          <p class="precio">$50 <span class="u-pull-right"></span> </p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">agregar al carrito</a>          
+        </div> 
+  
+        <div  class="todo__producto--zapatilla info-card">
+          <img src="./asents/running/urban1.webp" class="img-fluid imagen-zapatilla u-full-width" alt="urban">
+          <h4 class="zapatilla__name">x Sean Wotherspoon Air Max 97 sneakers</h4>
+          <p class="precio">$50 <span class="u-pull-right"></span> </p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">agregar al carrito</a>         
+        </div>
       </div>
-
-      <div  class="todo__producto--zapatilla">
-        <a href="./zapatillas/jordan.html">
-        <img src="./asents/jordan/jonda 1.webp" class="img-fluid" alt="jordan-roja-negra"></a>
-        <h4 class="zapatilla__name">Air Jordan 1 Low sneakers</h4>            
+     
+      <div class="row">
+        <div  class="todo__producto--zapatilla info-card">
+          <img src="./asents/kyrie/kyrie6-1.webp" class="img-fluid imagen-zapatilla u-full-width" alt="Kyrie-6">
+          <h4 class="zapatilla__name">Kyrie 6 Pre Heat sneakers</h4>
+          <p class="precio">$50 <span class="u-pull-right"></span> </p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">agregar al carrito</a>          
+        </div>
+  
+        <div  class="todo__producto--zapatilla info-card">
+          <img src="./asents/kyrie/kyrie5-1.webp" class="img-fluid imagen-zapatilla u-full-width" alt="Kyrie 5">
+          <h4 class="zapatilla__name">Kyrie 5 sneakers</h4>
+          <p class="precio">$50 <span class="u-pull-right"></span> </p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">agregar al carrito</a>                       
+        </div>
+  
+        <div  class="todo__producto--zapatilla info-card">
+          <img src="./asents/kyrie/kyrie1-1.webp" class="img-fluid imagen-zapatilla u-full-width" alt="Kyrie 1">
+           <h4 class="zapatilla__name">Kyrie 1 sneakers</h4>
+           <p class="precio">$50 <span class="u-pull-right"></span> </p>
+           <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">agregar al carrito</a>         
+        </div>
       </div>
-      
-      <div  class="todo__producto--zapatilla">
-        <a href="./zapatillas/running.html">
-        <img src="./asents/running/running1.webp" class="img-fluid" alt="zapatilla-running"></a>
-        <h4 class="zapatilla__name">Quest 3 low-top sneakers</h4>
-      </div>
-
-      <div  class="todo__producto--zapatilla">
-        <a href="./zapatillas/running2.html">
-        <img src="./asents/running/speed1.webp" class="img-fluid" alt="zapatilla-running2"></a>
-        <h4 class="zapatilla__name">Nike Free RN Flyknit 2018 sneakers</h4>
-      </div> 
-
-      <div  class="todo__producto--zapatilla">
-        <a href="./zapatillas/urban.html">
-          <img src="./asents/running/urban1.webp" class="img-fluid" alt="urban"></a>
-        <h4 class="zapatilla__name">x Sean Wotherspoon Air Max 97 sneakers</h4>
-      </div>
-
-      <div  class="todo__producto--zapatilla">
-        <a href="./zapatillas/kyrie6.html">
-          <img src="./asents/kyrie/kyrie6-1.webp" class="img-fluid" alt="Kyrie-6"></a>
-        <h4 class="zapatilla__name">Kyrie 6 Pre Heat sneakers</h4>
-      </div>
-
-      <div  class="todo__producto--zapatilla">
-        <a href="./zapatillas/kyrie5.html">
-          <img src="./asents/kyrie/kyrie5-1.webp" class="img-fluid" alt="Kyrie 5"></a>
-        <h4 class="zapatilla__name">Kyrie 5 sneakers</h4>             
-      </div>
-
-      <div  class="todo__producto--zapatilla">
-        <a href="./zapatillas/kyrie1.html">
-          <img src="./asents/kyrie/kyrie1-1.webp" class="img-fluid" alt="Kyrie 1"></a>
-         <h4 class="zapatilla__name">Kyrie 1 sneakers</h4>
-      </div>
-
     </div>
+  </div>
 </main>
   
   </div>

@@ -11,6 +11,10 @@ body {
   font-family: "Archivo Black", sans-serif;
 }
 
+
+/* barra de tareas */
+
+
 #barra__tareas {
   justify-content: space-evenly;
   list-style: none;
@@ -61,6 +65,10 @@ ul li a:hover{
   padding-top: 0;
 }
 
+
+/* zapatillas */
+
+
 .zapatilla {
   max-width: 1200px;
   margin: 0 auto;
@@ -85,6 +93,134 @@ ul li a:hover{
 .tarjetas {
   background: linear-gradient(70deg, black, white);
 }
+
+
+/* carrito */
+
+ul {
+  list-style: none;
+}
+.submenu {
+  position: relative;
+}
+.submenu #carrito{
+  display: none;
+}
+.submenu:hover #carrito {
+  display: block;
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: white;
+  z-index: 10;
+  padding: 20px;
+}
+.vacio{
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: gray;
+  background-color: orange;
+}
+
+.borrar-zapatilla {
+  background-color: orange;
+  border-radius: 50%;
+  padding:  5px 10px;
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+.button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box; }
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover,
+  .button:focus,
+  button:focus,
+  input[type="submit"]:focus,
+  input[type="reset"]:focus,
+  input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; }
+  .button.button-primary,
+  button.button-primary,
+  input[type="submit"].button-primary,
+  input[type="reset"].button-primary,
+  input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #FBAF32;
+    border-color: #FBAF32; }
+  .button.button-primary:hover,
+  button.button-primary:hover,
+  input[type="submit"].button-primary:hover,
+  input[type="reset"].button-primary:hover,
+  input[type="button"].button-primary:hover,
+  .button.button-primary:focus,
+  button.button-primary:focus,
+  input[type="submit"].button-primary:focus,
+  input[type="reset"].button-primary:focus,
+  input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #dc8b04;
+    border-color: #dc8b04; }
+  
+    hr {
+      margin-top: 3rem;
+      margin-bottom: 3.5rem;
+      border-width: 0;
+      border-top: 1px solid #E1E1E1; }
+/* footer */
+
+
 .footer__cotain {
   padding: 15px 8px;
   display: flex;
@@ -148,12 +284,25 @@ footer {
   bottom: 0;
 }
 
+
+/* medias */
+
+
 @media (max-width: 920px) {
   body {
     position: relative;
     padding-bottom: 162px;
   }
-
+  .submenu:hover #carrito {
+    display: block;
+    color: black;
+    position: absolute;
+    right: 10 !important;
+    top: 100%;
+    background-color: white;
+    z-index: 10;
+    padding: 20px;
+  }
   .todo__producto {
     width: 100%;
     display: flex;
@@ -260,6 +409,16 @@ footer {
     position: relative;
     padding-bottom: 350px;
   }
+  .submenu:hover #carrito {
+    display: block;
+    color: black;
+    position: absolute;
+    right: 10 !important;
+    top: 100%;
+    background-color: white;
+    z-index: 10;
+    padding: 20px;
+  }
   #j-balvin__texto {
     display: none;
   }
@@ -345,7 +504,16 @@ footer {
     position: relative;
     padding-bottom: 350px;
   }
-
+  .submenu:hover #carrito {
+    display: block;
+    color: black;
+    position: absolute;
+    right: 10 !important;
+    top: 100%;
+    background-color: white;
+    z-index: 10;
+    padding: 20px;
+  }
   .todo__producto {
     width: 100%;
     display: flex;
