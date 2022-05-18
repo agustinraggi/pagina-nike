@@ -213,11 +213,17 @@ td:last-child {
     background-color: #dc8b04;
     border-color: #dc8b04; }
   
-    hr {
-      margin-top: 3rem;
-      margin-bottom: 3.5rem;
-      border-width: 0;
-      border-top: 1px solid #E1E1E1; }
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1;
+ }
+.info-card .precio {
+  /* text-decoration: line-through; */
+  font-size: 18px;
+  margin-top: 10px;
+}
 /* footer */
 
 

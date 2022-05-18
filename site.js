@@ -24,7 +24,7 @@ function leerDatoszapatilla(zapatilla){
     const infozapatilla = {
         imagen: zapatilla.querySelector('img').src,
         titulo: zapatilla.querySelector('h4').textContent,
-        precio: zapatilla.querySelector('.precio span').textContent,
+        precio: zapatilla.querySelector('.precio').textContent,
         id: zapatilla.querySelector('a').getAttribute('data-id')
     }
 
