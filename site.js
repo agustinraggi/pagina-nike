@@ -2,6 +2,7 @@ const carrito = document.getElementById("carrito");
 const zapatillas = document.getElementById("lista-zapatillas");
 const listazapatillas = document.querySelector("#lista-carrito tbody");
 const vaciarCarritoBtn = document.getElementById("vaciar-carrito");
+const total = document.getElementById("shoppingCartTotal")
 
 cargarEventListeners();
 
@@ -9,6 +10,7 @@ function cargarEventListeners() {
   zapatillas.addEventListener("click", comprarzapatilla);
   carrito.addEventListener("click", eliminarzapatilla);
   vaciarCarritoBtn.addEventListener("click", vaciarCarrito);
+  total.addEventListener("click",shoppingCartTotal)
   document.addEventListener("DOMContentLoaded", leerLocalStorage);
 }
 
@@ -111,6 +113,7 @@ function leerLocalStorage() {
     });
 }
 
+
 function eliminarzapatillaLocalStorage(zapatilla) {
     let zapatillasLS;
     zapatillasLS = obtenerzapatillasLocalStorage();
@@ -126,4 +129,27 @@ function eliminarzapatillaLocalStorage(zapatilla) {
 
 function vaciarLocalStorage() {
     localStorage.clear();
+}
+updateShoppingCartTotal ()
+
+function updateShoppingCartTotal(){
+    let total = 0;
+    const shoppingCartTotal = document.querySelector('.shoppingCartTotal');
+
+    const shoppingCartItems = document.querySelectorAll('.shoppingCartItem');
+
+    shoppingCartItems.forEach((shoppingCartItem) => {
+    const shoppingCartprecioElement = shoppingCartItem.querySelector(".shoppingCartprecio")
+    const shoppingCartprecio = Number(
+        shoppingCartprecioElement.textContent.replace('$', '')
+      );
+      const shoppingCartItemQuantityElement = shoppingCartItem.querySelector(
+        '.shoppingCartItemQuantity'
+      );
+      const shoppingCartItemQuantity = Number(
+        shoppingCartItemQuantityElement.value
+      );
+      total = total + shoppingCartprecio * shoppingCartItemQuantity;
+    });
+    shoppingCartTotal.innerHTML = `${total.toFixed(2)}$`;
 }
