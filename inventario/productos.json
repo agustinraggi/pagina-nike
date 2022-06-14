@@ -1,0 +1,4 @@
+[
+    {"nombreProducto": "JORDAN", "modeloProducto": "1", "stock": 26, "precioProducto": 15000, "idProducto": 1},
+    {"nombreProducto": "Kyrie", "modeloProducto": "5", "stock": 20, "precioProducto": 20000, "idProducto": 2}
+]

@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.altoSeccion{
+    height: 20rem;
+}
+
+a:hover{
+    color:yellow;
+}
+
+button:hover{
+    background-color: orange;
+    color: white;
+}
+.tamImgCarro{
+    width: 4rem;
+}
+
+.textoBlanco{
+    color: white;
+}
+
+.textoPrecios{
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.cardProducto{
+    padding: 10px;
+    border: solid 1px;
+    border-color: rgb(177, 175, 175);
+    border-radius: 5px;
+}
+
+.botonProducto{
+    background-color:dodgerblue;
+    color: white;
+    border-style: none;
+    padding: 8px;
+    border-radius: 3px;
+
+
+}
+
+.colorSection1{
+    background-color: yellow;
+}
+.colorSection2{
+    background-color: rgb(255, 105, 150);
+}
+.colorSection3{
+    background-color:rgb(165, 165, 165);
+}
+.colorSection4{
+    background-color: yellowgreen;
+}
+.colorSection5{
+    background-color: red;
+}

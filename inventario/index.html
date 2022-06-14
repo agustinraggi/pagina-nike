@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Agustin Raggi">
+  <link rel="shortcut icon" href="../asents/logo-nike.png" type="image/x-icon"> 
+    <title>inventario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../zapatillas/style.css">
+</head>
+<body>
+  <header id="barra__tareas">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="logo">
+        <img
+          src="../asents/logo-nike.png"
+          width="70"
+          height="50"
+          alt="logo"
+        />
+      </div>
+      <div class="container-fluid">
+        <a id="barra__tareas2" class="navbar-brand" href="../index.html"
+          >
+          <img class="volver"
+            src="../asents/rrss/arrow-left-long-solid.svg"
+            width="40"
+            height="40"
+            alt="flecha,volver a producto"
+          />
+         <p class="menu__volver">VOLVER</p> </a
+        >
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="barra__tareas" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../acerca.html"
+                >ACERCA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../envio.html"
+                >ENVIO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../contacto.html"
+                >CONTACTO</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<main>
+  <div class="row">
+    <div class="container">
+      <div class="text-center">
+        <p class="textoBlanco pt-3 fs-2">Bienvenido al Inventario</p>
+        <p id="encabezado" class="textoBlanco fs-4">En esta sección podra agregar y eliminar productos a su stock disponible</p>
+      </div>
+    </div>
+  </div>
+  <section class="container-fluid colorSection2 pt-4">
+  </section>
+  <section class="container-fluid d-flex mt-5">
+    <div class="row col-md-12 justify-content-center">
+      <div class="container col-md-5">
+        <div class=" pt-4 cardProducto m-4">
+          <div class="">
+            <p class="fs-4 text-center">Agregar Productos del Inventario</p>
+          </div>
+          <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <form>
+                        <div class="mb-3 pt-5 d-flex">
+                          <label for="InputNombre" class="col-md-5  form-label" >Nombre Producto</label>
+                          <input type="text" class="form-control" id="InputNombre" required>
+                        </div>
+                        <div class="mb-3 d-flex">
+                          <label for="InputModelo" class="col-md-5 form-label">Modelo del Producto</label>
+                          <input type="text" class="form-control" id="InputModelo" required>
+                        </div>
+                        <div class="mb-3 d-flex">
+                          <label for="InputCant" class="col-md-5 form-label">Cantidad a Ingresar</label>
+                          <input type="number" class="form-control" id="InputCant" required>
+                        </div>
+                        <div class="mb-3 d-flex">
+                          <label for="InputPrecio" class="col-md-5 form-label">Precio del Producto</label>
+                          <input type="number" class="form-control" id="InputPrecio" required>
+                        </div>
+                        <button  id="botonAgregarInventario" type="submit" class="btn btn-primary mt-3">Agregar</button>
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container col-md-5">
+        <div class=" pt-4 cardProducto m-4">
+          <div class="">
+            <p class="fs-4 text-center">Eliminar Productos del Inventario</p>
+          </div>
+          <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <form>
+                        <div class="mb-3 pt-5 d-flex">
+                          <label for="IdProdEliminar" class="col-md-5  form-label" >Ingrese ID Producto</label>
+                          <input type="number" class="form-control" id="IdProdEliminar" required>
+                        </div>
+                        <div class="mb-3 d-flex">
+                          <label for="InputCantEliminar" class="col-md-5 form-label">Cantidad a Eliminar</label>
+                          <input type="number" class="form-control" id="InputCantEliminar" required>
+                        </div>
+                        <button id="botonEliminarInventario" type="submit" class="btn btn-danger mt-3">Eliminar</button>
+                      </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="container-fluid">
+      <div class="row d-flex pt-4 cardProducto m-4 ">
+        <div class="col-md-12">
+          <h1 class="text-center pb-4">Resumen de su Inventario Actual</h1>
+          <div class="container col-md-12 d-flex justify-content-center">
+            <div class="d-flex col-md-3">
+                <p class="align-self-center">Nombre Producto</p>
+            </div>
+            <div class="d-flex col-md-2">
+                <p class="align-self-center">Modelo</p>
+            </div>
+            <div class="d-flex col-md-2 justify-content-center">
+              <p class="align-self-center">Stock Disponible</p>
+            </div>
+            <div class="d-flex col-md-2 justify-content-end">
+                <p class="align-self-center"></p>
+                <p class="align-self-center">Precio</p>
+            </div>
+            <div class="d-flex col-md-2 offset-md-1 justify-content-end">
+              <p class="align-self-center">Id Producto</p>
+            </div>
+          </div>
+          <hr class="mt-1">
+        </div>
+        <div id = "listadoInventario" class="mb-3 justify-content-center">  
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid col-md-12">
+        <div class="container col-md-6 justify-content-center">
+          <p class="fs-4 text-center mt-5">Gráfico Dinámico de Stock de Productos</p>
+          <canvas id="myChart">    
+          </canvas>
+        </div>
+      </div>
+    </section>
+</main>
+<footer>
+  <div class="footer__cotain">
+    <div id="time">
+      <div class="footer__subTitles">
+        <img
+          class="icons__footer"
+          src="../asents/rrss/clock-solid.svg"
+          width="25px"
+          height="25px"
+          alt="reloj de horarios"
+        />
+        <p><strong> Nuestros horarios</strong></p>
+      </div>
+      <div class="footer__time--info">
+        <p>Lunes a viernes: 09:00 a 18:00 hs</p>
+        <p>Sábados y domingos: 09:00 a 13:00 hs</p>
+      </div>
+    </div>
+    <div class="footer__networks">
+      <p><strong> Seguinos en redes!</strong></p>
+      <div class="footer__icons">
+       <a href="https://www.facebook.com/nike/" target="_blank" >
+        <img
+        src="../asents/rrss/facebook-brands.svg"
+        width="25px"
+        height="25px"
+        alt="facebbok"
+      />
+       </a>
+       <a href="https://www.instagram.com/nike/?hl=es" target="_blank">
+        <img
+        src="../asents/rrss/instagram-brands.svg"
+        width="25px"
+         height="25px"
+        alt="instagram"
+      />
+       </a>
+       <a href="https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+        <img src="../asents/rrss/twitter-brands.svg"
+         width="25px"
+         height="25px"
+          alt="twitter" />
+       </a>           
+      </div>
+    </div>
+    <div class="footer__subContainers">
+      <div class="footer__subTitles">
+        <p><strong> Dónde encontrarnos</strong></p>
+      </div>
+      <div class="footer__time--info">
+        <p>Dir: Santa Fe 1681</p>
+        <p>Tel: +54 011 48141555</p>
+      </div>
+    </div>
+  </div>
+  <div class="contact__footer">
+    <p class="contac__footer--creator">
+      &#169 Created by Agustin Raggi agustinraggi@gmail.com
+    </p>
+  </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./index.js"></script>
+</html>
